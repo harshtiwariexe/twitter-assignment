@@ -2,7 +2,7 @@ import { useState } from "react";
 function HeaderDropDown() {
     const [activeItem, setActiveItem] = useState(null);
 
-    const handleItemClick = (index: number) => {
+    const handleItemClick = (index: any) => {
         setActiveItem(index);
     };
 
