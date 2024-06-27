@@ -1,6 +1,6 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCircle,faCoins,faGlobe } from '@fortawesome/free-solid-svg-icons';
+import { faCircle} from '@fortawesome/free-solid-svg-icons';
 
 
 function title() {
@@ -18,7 +18,7 @@ interface LabelProp {
 }
 
 function Heading({ label }: LabelProp) {
-    const [active, setActive] = useState(true);
+    const [active] = useState(true);
 
     return (
         <div className='mt-2 ml-20 flex flex-row items-center gap-3'>

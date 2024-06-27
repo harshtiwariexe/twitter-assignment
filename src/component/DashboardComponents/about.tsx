@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 function About() {
     return (
@@ -44,9 +44,7 @@ function BenfitProp({ brand, index }:any) {
       </div>
     );
   }
-function ScheduleProp({ brand, index }:any) {
-    return <li value={index + 1}>{brand}</li>;
-  }
+
   
   function Schedule() {
     const perks = ['Day Shift'];
@@ -61,10 +59,6 @@ function ScheduleProp({ brand, index }:any) {
       </div>
     );
   }
-function PayTypesProp({ brand, index }:any) {
-    return <li value={index + 1}>{brand}</li>;
-  }
-  
   function PayTypes() {
     const perks = ['Performance Bonus','Yearly Bonus'];
     return (

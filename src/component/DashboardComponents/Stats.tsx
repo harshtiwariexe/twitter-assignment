@@ -1,14 +1,8 @@
-import { IconProp } from '@fortawesome/fontawesome-svg-core'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {  faPencil, faUserGroup} from '@fortawesome/free-solid-svg-icons';
-import { faEye,faUser,faMessage,faTrashCan} from '@fortawesome/free-regular-svg-icons';
-import React from 'react'
-
 function Stats() {
   return (
     <div className='bg-simple-gray w-80 flex flex-col '>
         <div className='flex flex-row items-center gap-4 mb-5 justify-center mt-10'>
-            <button className='px-4 py-2 bg-light-or rounded-lg border-2 border-simple-orange text-orange-500 flex items-center'><img src="./delete.png" alt="" srcset="" className='mr-2'/>Delete Job</button>
+            <button className='px-4 py-2 bg-light-or rounded-lg border-2 border-simple-orange text-orange-500 flex items-center'><img src="./delete.png" alt="" className='mr-2'/>Delete Job</button>
             <button className='px-5 py-2 bg-simple-orange rounded-lg border-2 border-light-or text-white flex items-center'><img src='Icon.png' className='mr-2'/>Edit Job</button>
         </div>
         <div>

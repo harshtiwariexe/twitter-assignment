@@ -1,9 +1,3 @@
-import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
-import { IconProp } from '@fortawesome/fontawesome-svg-core';
-
-
 function Skills() {
   return (
     <div className='flex flex-row gap-24 m-5 h-32 ml-20'>

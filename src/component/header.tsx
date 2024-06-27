@@ -63,7 +63,6 @@ interface LabelProps {
 
 function MiddleComponent({ label, isActive, onClick, img}: LabelProps) {
     const textColor = isActive ? 'text-white' : 'text-header-text';
-    const iconColor = isActive ? 'text-white' : 'text-header-text';
     const backgroundColor = isActive ? 'bg-simple-orange' : 'bg-initial';
 
     return (
